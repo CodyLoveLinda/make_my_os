@@ -1,0 +1,12 @@
+install qemu
+	sudo apt-get install qemu-system-x86_64
+
+make nas
+	insatll nasm
+		sudo apt install nasm
+	nams *.name -o *.img
+
+start img
+
+qemu-system-x86_64 -drive format=raw,file=*img
+ 
