@@ -1,0 +1,6 @@
+nasm -f elf entry.asm -o entry.o
+gcc -m32 -c main.c -o main.o
+ld -m elf_i386 -s entry.o main.o -o app.out
+gcc -S hello.c -o a.s可以生成汇编代码
+gcc -E hello.c -o a.c可以生成预处理后的文件
+gcc hello.c -o a可以生成可执行程序

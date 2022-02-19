@@ -51,8 +51,14 @@ msg:
 		DB		0x0a, 0x0a		;
 		DB		"hello, world!"
 		DB		0x0a, 0x0d
-		DB		" my first oprate system..."
+		DB		"my first oprate system..."
 		DB		0x0a,0x0d			;
+		DB		"Sned to Linda."
+		DB		0x0a,0x0d
+		DB		"I Love you forever"
+		DB		0x0a,0x0d
+		DB		"Designed by mingmingzhang"
+		DB		0x0a,0x0d
 		DB		0
 
 		;RESB	0x7dfe-($-$$)		;
